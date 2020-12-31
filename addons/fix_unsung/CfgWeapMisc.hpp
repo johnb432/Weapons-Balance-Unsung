@@ -49,6 +49,7 @@ class uns_svd_base: Uns_Rifle762 {
     };
 };
 class uns_SVD_CAMO_base: uns_svd_base {
+    displayName = "SVD (Camo)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 86;
     };
@@ -57,7 +58,7 @@ class uns_SVD_CAMO_base: uns_svd_base {
 class uns_svt: Uns_Rifle762 {
     ACE_barrelLength = 625;
     ACE_barrelTwist = 240;
-    displayName = "SVD (Camo)";
+    displayName = "SVT";
     magazineWell[] += {"CBA_762x54R_SVT","CBA_762x54R_Mosin"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 85;
