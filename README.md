@@ -83,7 +83,7 @@
             - Changed weight from 3.63/4.08kg to 2.36kg
         - M1 Garand variants:
             - Added CBA magwell for M1 Garand clips
-            - Changed weight from 5.44/6.35kg to 4.10kg
+            - Changed weight from 5.44/6.35kg to 4.30kg
         - M12:
             - Added CBA magwell for 12 Gauge 1-6Rnds
             - Changed weight from 4.54kg to 3.42kg
