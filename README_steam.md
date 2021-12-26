@@ -4,8 +4,9 @@ This rebalancing balances items from Unsung:
 [*] Weapon weight balancing
 [*] Magazine weight balancing
 [*] Magazine compatibility
-[*] Some sound fixes (bolt action weapons)
-[*] and more
+[*] Sound fixing/changing for bolt-action and pump-action weapons
+[*] Ability to fold weapons when RHS is loaded
+[*] and further changes
 [/list]
 
 Visit the [url=https://github.com/johnb432/Weapons-Balance-Unsung]GitHub[/url] to get all the changed items.
