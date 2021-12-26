@@ -109,6 +109,7 @@ class CfgMagazineWells {
             "uns_40mm_mkv_White",
             "Uns_1Rnd_HE_M381",
             "Uns_1Rnd_HE_M406",
+            "uns_1Rnd_HEDP_M433",
             "uns_1Rnd_SmokeGreen_40mm",
             "uns_1Rnd_SmokeGreen_MKV",
             "uns_1Rnd_SmokeRed_40mm",
@@ -391,6 +392,13 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_RPG2 {
+        WB_Magazines[] += {
+            "uns_B40grenade",
+            "uns_rpg2grenade"
+        };
+    };
+
     class CBA_RPG7 {
         WB_Magazines[] += {
             "uns_rpg7grenade"
@@ -404,6 +412,12 @@ class CfgMagazineWells {
         };
     };
 
+    class PK_762x54R {
+        WB_Magazines[] += {
+            "uns_100Rnd_762x54_PK"
+        };
+    };
+
     class RPG7 {
         WB_Magazines[] += {
             "uns_rpg7grenade"
@@ -414,6 +428,32 @@ class CfgMagazineWells {
         WB_Magazines[] += {
             "uns_svdmag",
             "uns_svdmag_T"
+        };
+    };
+
+    class UGL_40x36 {
+        WB_Magazines[] += {
+            "uns_1Rnd_AB_M397",
+            "uns_1Rnd_BS_M576",
+            "uns_40mm_green",
+            "uns_40mm_mkv_Green",
+            "uns_40mm_yellow",
+            "uns_40mm_mkv_Yellow",
+            "uns_40mm_red",
+            "uns_40mm_mkv_Red",
+            "uns_40mm_white",
+            "uns_40mm_mkv_White",
+            "Uns_1Rnd_HE_M381",
+            "Uns_1Rnd_HE_M406",
+            "uns_1Rnd_HEDP_M433",
+            "uns_1Rnd_SmokeGreen_40mm",
+            "uns_1Rnd_SmokeGreen_MKV",
+            "uns_1Rnd_SmokeRed_40mm",
+            "uns_1Rnd_SmokeRed_MKV",
+            "uns_1Rnd_Smoke_40mm",
+            "uns_1Rnd_Smoke_MKV",
+            "uns_1Rnd_SmokeYellow_40mm",
+            "uns_1Rnd_SmokeYellow_MKV"
         };
     };
 

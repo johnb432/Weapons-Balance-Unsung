@@ -5,7 +5,7 @@ class uns_Rifle_boltaction_base: Uns_Rifle762 {
     class WeaponSlotsInfo: WeaponSlotsInfo {};
     class EventHandlers: EventHandlers {
         class unsung {
-            fired = "[(_this select 0), (_this select 1), (_this select 2)] call WB_fnc_pa_fired_fixed";
+            fired = QUOTE(_this call FUNC(cycleBolt));
         };
     };
 };
@@ -19,16 +19,16 @@ class uns_mosin_base: uns_Rifle_boltaction_clip_base {
     magazineReloadTime = 0;
     class WeaponSlotsInfo: WeaponSlotsInfo {};
     class Single: Single {
-     			class StandardSound {
-        				begin1[] = {"\uns_weap_s\sks\sks_fire",2,0.99,500};
-        				begin2[] = {"\uns_weap_s\sks\sks_fire",2,1,500};
+        class StandardSound {
+            begin1[] = {"\uns_weap_s\sks\sks_fire",2,0.99,500};
+            begin2[] = {"\uns_weap_s\sks\sks_fire",2,1,500};
             begin3[] = {"A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR_01_short_03",3.98107,1,2000};
             closure1[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Mk20\closure_Mk20_01",0.707946,1,10};
             closure2[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Mk20\closure_Mk20_02",0.707946,1.1,10};
-        				soundBegin[] = {"begin1",0.5,"begin2",0.5};
+            soundBegin[] = {"begin1",0.5,"begin2",0.5};
             soundClosure[] = {"closure1",0.5,"closure2",0.5};
-     			};
-  		};
+        };
+    };
 };
 class uns_mosin: uns_mosin_base {
     magazineWell[] += {"CBA_762x54R_Mosin"};
@@ -54,16 +54,16 @@ class uns_kar98k: uns_mosin_base {
         mass = 86;
     };
     class Single: Single {
-     			class StandardSound {
-        				begin1[] = {"\uns_weap_s\sks\sks_fire",2,0.99,500};
-        				begin2[] = {"\uns_weap_s\sks\sks_fire",2,1,500};
+        class StandardSound {
+            begin1[] = {"\uns_weap_s\sks\sks_fire",2,0.99,500};
+            begin2[] = {"\uns_weap_s\sks\sks_fire",2,1,500};
             begin3[] = {"A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR_01_short_03",3.98107,1,2000};
             closure1[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Mk20\closure_Mk20_01",0.707946,1,10};
             closure2[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Mk20\closure_Mk20_02",0.707946,1.1,10};
-        				soundBegin[] = {"begin1",0.5,"begin2",0.5};
+            soundBegin[] = {"begin1",0.5,"begin2",0.5};
             soundClosure[] = {"closure1",0.5,"closure2",0.5};
-     			};
-  		};
+        };
+    };
 };
 
 class uns_m1903: uns_Rifle_boltaction_clip_base {
@@ -211,13 +211,13 @@ class uns_model70_base: uns_Rifle_boltaction_base {
     };
     class Single: Single {
         class StandardSound {
-        				begin1[] = {"\uns_weap_s\M1garand\M1garand_fire",2,0.99,1200};
-        				begin2[] = {"\uns_weap_s\M1garand\M1garand_fire",2,1,1200};
+            begin1[] = {"\uns_weap_s\M1garand\M1garand_fire",2,0.99,1200};
+            begin2[] = {"\uns_weap_s\M1garand\M1garand_fire",2,1,1200};
             closure1[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Mk20\closure_Mk20_01",0.707946,1,10};
             closure2[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Mk20\closure_Mk20_02",0.707946,1.1,10};
-        				soundBegin[] = {"begin1",0.5,"begin2",0.5};
+            soundBegin[] = {"begin1",0.5,"begin2",0.5};
             soundClosure[] = {"closure1",0.5,"closure2",0.5};
-     			};
+        };
     };
 };
 class uns_model70_iron: uns_model70_base {

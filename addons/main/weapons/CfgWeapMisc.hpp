@@ -58,7 +58,7 @@ class uns_SVD_CAMO_base: uns_svd_base {
 class uns_svt: Uns_Rifle762 {
     ACE_barrelLength = 625;
     ACE_barrelTwist = 240;
-    displayName = "SVT";
+    displayName = "SVT-40";
     magazineWell[] += {"CBA_762x54R_SVT","CBA_762x54R_Mosin"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 85;
@@ -111,33 +111,4 @@ class uns_ex41: uns_m79 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 82;
     };
-};
-
-class Launcher;
-class Launcher_Base_F: Launcher {
-    class WeaponSlotsInfo {};
-};
-class launch_RPG32_F: Launcher_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
-class uns_launcher_base_F: launch_RPG32_F {
-    magazineWell[] = {};
-    scope = 0;
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
-class uns_launcher_base: uns_launcher_base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
-class uns_rpg2: uns_launcher_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
-class uns_B40: uns_rpg2 {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
-class uns_rpg7: uns_rpg2 {
-    displayName = "RPG-7";
-    magazineWell[] = {"RPG7","CBA_RPG7"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {
-       mass = 120;
-   };
 };

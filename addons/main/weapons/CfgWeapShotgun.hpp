@@ -13,7 +13,7 @@ class Uns_Shotgun: Uns_Rifle {
     class WeaponSlotsInfo: WeaponSlotsInfo {};
     class EventHandlers: EventHandlers {
         class unsung {
-            fired = "[(_this select 0), (_this select 1), (_this select 2)] call WB_fnc_pa_fired_fixed";
+            fired = QUOTE(_this call FUNC(cycleBolt));
         };
     };
 };
@@ -26,10 +26,10 @@ class uns_m870: Uns_Shotgun {
         mass = 72.1;
     };
     class Single: Single {
-     			class StandardSound {
+        class StandardSound {
             soundSetShot[] = {"HunterShotgun_01_Shot_SoundSet","HunterShotgun_01_Tail_SoundSet"};
-     			};
-  		};
+        };
+    };
 };
 
 class uns_m870_mk1: uns_m870 {
@@ -50,10 +50,10 @@ class uns_m1897: Uns_Shotgun {
     class Single: Single {
         reloadTime = 0.5;
         soundEnd[] = {"sound",1};
-     			class StandardSound {
+        class StandardSound {
             soundSetShot[] = {"HunterShotgun_01_Shot_SoundSet","HunterShotgun_01_Tail_SoundSet"};
-     			};
-  		};
+        };
+    };
 };
 class uns_m1897riot: uns_m1897 {
     displayName = "M97 (Riot)";
@@ -86,10 +86,10 @@ class uns_baikal_sawnoff: uns_baikal {
         aiRateOfFireDistance = 50;
         maxRange = 50;
         midRange = 30;
-     			class StandardSound {
+        class StandardSound {
             soundSetShot[] = {"HunterShotgun_01_SawedOff_Shot_SoundSet","HunterShotgun_01_Tail_SoundSet"};
-     			};
-  		};
+        };
+    };
 };
 
 class uns_ithaca37: Uns_Shotgun {
@@ -101,10 +101,10 @@ class uns_ithaca37: Uns_Shotgun {
     };
     class Single: Single {
         soundEnd[] = {"sound",1};
-     			class StandardSound {
+        class StandardSound {
             soundSetShot[] = {"HunterShotgun_01_Shot_SoundSet","HunterShotgun_01_Tail_SoundSet"};
-     			};
-  		};
+        };
+    };
 };
 class uns_ithaca37_grip: uns_ithaca37 {
     displayName = "Ithaca 37 (Grip)";
@@ -120,8 +120,8 @@ class uns_model12: uns_ithaca37 {
         mass = 75.5;
     };
     class Single: Single {
-     			class StandardSound {
+        class StandardSound {
             soundSetShot[] = {"HunterShotgun_01_SawedOff_Shot_SoundSet","HunterShotgun_01_Tail_SoundSet"};
-     			};
-  		};
+        };
+    };
 };

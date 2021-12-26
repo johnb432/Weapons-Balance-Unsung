@@ -88,7 +88,7 @@ class uns_DP28_base: Uns_HMG {
 };
 class uns_DP28: uns_DP28_base {
     baseWeapon = "uns_DP28";
-    displayName = "DP-28";
+    displayName = "DP-27";
 };
 
 class uns_MG42_base: Uns_HMG {

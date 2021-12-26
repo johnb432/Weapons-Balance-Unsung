@@ -1,7 +1,7 @@
 class uns_Riflemag_base: uns_Magazine {};
 class uns_m14mag: uns_Riflemag_base {
     displayName = "20Rnd 7.62x51mm M14 Mag (Mixed)";
-    mass = 16.25;
+    mass = 16.24;
     model = "\A3\weapons_F\ammo\mag_univ.p3d";
     modelSpecial = "a3\Weapons_F_Mark\MagazineProxies\mag_762x51_mk14_20rnd";
     modelSpecialIsProxy = 1;
@@ -15,7 +15,7 @@ class uns_m14mag_T: uns_m14mag {
 
 class uns_l1a1mag: uns_Riflemag_base {
     displayName = "20Rnd 7.62x51mm L1A1 Mag (Mixed)";
-    mass = 16.5;
+    mass = 16.24;
     model = "\A3\weapons_F\ammo\mag_univ.p3d";
     modelSpecial = "a3\Weapons_F_Mark\MagazineProxies\mag_762x51_mk14_20rnd";
     modelSpecialIsProxy = 1;

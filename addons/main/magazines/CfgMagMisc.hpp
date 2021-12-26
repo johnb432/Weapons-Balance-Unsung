@@ -36,6 +36,7 @@ class uns_sa58mag_T: uns_ak47mag_T {
 };
 
 class uns_rpdmag: uns_rpkmag {
+    ACE_isBelt = 1;
     displayName = "100Rnd 7.62x39mm RPD Belt";
     _MASS(AMMO762X39,100,RND100DRUMMG);
     modelSpecial = "";
@@ -118,7 +119,9 @@ class uns_40Rnd_556x45_Stanag_T: uns_30Rnd_556x45_Stanag_T {
     mass = 12.4;
 };
 
-class uns_m63amag: uns_STANAGmag_base {};
+class uns_m63amag: uns_STANAGmag_base {
+    ACE_isBelt = 1;
+};
 class uns_m63abox: uns_m63amag {
     mass = 26.9;
 };
@@ -161,7 +164,7 @@ class uns_m870mag_8f: uns_m870mag {
 class uns_pistolmag_base: uns_Magazine {};
 class uns_20Rnd_sa61_pa: uns_pistolmag_base {
     displayName = "20Rnd 7.65x17mm Sa vz.61 Mag (Sidearm)";
-    _MASS(AMMO9X18,25,RND25MAGSMG);
+    _MASS(AMMO765X20,20,RND20MAGSMG);
 };
 class uns_20Rnd_sa61: uns_20Rnd_sa61_pa {
     displayName = "20Rnd 7.65x17mm Sa vz.61 Mag";
@@ -169,7 +172,7 @@ class uns_20Rnd_sa61: uns_20Rnd_sa61_pa {
 
 class uns_25Rnd_pm_pa: uns_pistolmag_base {
     displayName = "25Rnd 9x18mm PM-63 Mag (Sidearm)";
-    _MASS(AMMO765X20,20,RND20MAGSMG);
+    _MASS(AMMO9X18,25,RND25MAGSMG);
 };
 class uns_25Rnd_pm: uns_25Rnd_pm_pa {
     displayName = "25Rnd 9x18mm PM-63 Mag";

@@ -125,7 +125,7 @@ class uns_f1_smg: uns_Sterling {
 class uns_m3a1: Uns_SMG {
     ACE_barrelLength = 203.2;
     ACE_barrelTwist = 406;
-    displayName = "M3A1 Grease Gun";
+    displayName = "M3A1";
     magazineWell[] += {"CBA_45ACP_Grease"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 79.4;
