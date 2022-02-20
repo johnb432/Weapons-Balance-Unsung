@@ -1,7 +1,7 @@
 class uns_sks: Uns_Rifle762 {
     ACE_barrelLength = 520;
     ACE_barrelTwist = 240;
-    displayName = "SKS-45";
+    displayName = "SKS";
     magazineReloadTime = 0;
     magazineWell[] += {"CBA_762x39_SKS","CBA_762x39_SKS_Clip"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -32,6 +32,7 @@ class uns_mas4956: uns_mas4956_muzzle {
     };
 };
 class uns_mas4956_gl: uns_mas4956 {
+    displayName = "MAS-49/56 (Rifle Grenade)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 90;
     };
@@ -71,7 +72,7 @@ class uns_M14_base: Uns_Rifle762 {
     class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 class uns_m14: uns_M14_base {
-    displayName = "M14 Rifle";
+    displayName = "M14";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 90.2;
     };
@@ -98,6 +99,7 @@ class uns_m79: Uns_Rifle {
     magazineReloadTime = 0;
     class uns_M79Muzzle: uns_UGL {
         magazineReloadTime = 0;
+        magazineWell[] = {"UGL_40x36","CBA_40mm_M203","CBA_40mm_EGLM"};
     };
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 59.4;

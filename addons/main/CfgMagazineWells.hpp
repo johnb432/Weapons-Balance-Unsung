@@ -35,6 +35,24 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_22mm_GL_M1 {
+        WB_Magazines[] += {
+            "uns_1Rnd_22mm_lume",
+            "Uns_1Rnd_22mm_FRAG",
+            "Uns_1Rnd_22mm_WP",
+            "Uns_1Rnd_22mm_smoke",
+            "Uns_1Rnd_22mm_AT",
+            "Uns_1Rnd_22mm_HEAT",
+            "Uns_1Rnd_22mm_M1a2_FRAG"
+        };
+    };
+
+    class CBA_30mm_GL_Type99 {
+        WB_Magazines[] += {
+            "Uns_1Rnd_30mm_FRAG"
+        };
+    };
+
     class CBA_3006_BAR {
         WB_Magazines[] += {
             "uns_barmag_NT",
@@ -392,10 +410,10 @@ class CfgMagazineWells {
         };
     };
 
-    class CBA_RPG2 {
+    class CBA_Bazooka {
         WB_Magazines[] += {
-            "uns_B40grenade",
-            "uns_rpg2grenade"
+            "uns_M28A2_mag",
+            "uns_M30_smoke_mag"
         };
     };
 

@@ -1,5 +1,5 @@
 #define COMPONENT main
-#include "\z\wb_unsung\addons\main\script_mod.hpp"
+#include "script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -14,4 +14,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_WB_UNSUNG
 #endif
 
-#include "\z\wb_unsung\addons\main\script_macros.hpp"
+#include "script_macros.hpp"

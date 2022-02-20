@@ -2,62 +2,88 @@ class uns_akmag_base: uns_Magazine {
     mass = 13.5;
 };
 class uns_ak47mag: uns_akmag_base {
-    displayName = "30Rnd 7.62x39mm AK Mag (Mixed)";
+    descriptionShort = "Caliber: 7.62x39mm 57-N-231/57-T-231P<br/>Type: FMJ/Tracer<br/>Rounds: 30<br/>Used in: AK-47, RPK";
+    displayName = "30Rnd 7.62x39 57-N-231 Mag (Green Tracer Mixed)";
+    displayNameShort = "FMJ/Tracer";
     model = "\A3\weapons_F\ammo\mag_univ.p3d";
     modelSpecial = "\a3\Weapons_F_Exp\MagazineProxies\mag_762x39_akm_30rnd.p3d";
     modelSpecialIsProxy = 1;
 };
 class uns_ak47mag_NT: uns_ak47mag {
-    displayName = "30Rnd 7.62x39mm AK Mag";
+    descriptionShort = "Caliber: 7.62x39mm 57-N-231<br/>Type: FMJ<br/>Rounds: 30<br/>Used in: AK-47, RPK";
+    displayName = "30Rnd 7.62x39 57-N-231 Mag";
+    displayNameShort = "FMJ";
 };
 class uns_ak47mag_T: uns_ak47mag {
-    displayName = "30Rnd 7.62x39mm AK Mag (Tracer)";
+    descriptionShort = "Caliber: 7.62x39mm 57-T-231P<br/>Type: Tracer<br/>Rounds: 30<br/>Used in: AK-47, RPK";
+    displayName = "30Rnd 7.62x39 57-T-231P Mag (Green Tracer)";
+    displayNameShort = "Tracer";
 };
 
 class uns_rpkmag: uns_ak47mag {
-    displayName = "40Rnd 7.62x39mm RPK Mag";
+    descriptionShort = "Caliber: 7.62x39mm 57-N-231/57-T-231P<br/>Type: FMJ/Tracer<br/>Rounds: 40<br/>Used in: AK-47, RPK";
+    displayName = "40Rnd 7.62x39 57-N-231 Mag (Green Tracer Mixed)";
+    displayNameShort = "FMJ/Tracer";
     mass = 18;
 };
 
 class uns_75Rnd_akdr: uns_ak47mag {
-    displayName = "75Rnd 7.62x39mm RPK Mag";
+    descriptionShort = "Caliber: 7.62x39mm 57-N-231/57-T-231P<br/>Type: FMJ/Tracer<br/>Rounds: 75<br/>Used in: AK-47, RPK";
+    displayName = "75Rnd 7.62x39 57-N-231 Drum (Green Tracer Mixed)";
+    displayNameShort = "FMJ/Tracer";
     mass = 33.7;
     modelSpecial = "a3\Weapons_F_Enoch\MagazineProxies\mag_762x39_akm_75rnd";
 };
 
 class uns_sa58mag: uns_ak47mag {
-    displayName = "30Rnd 7.62x39mm Sa vz.58 Mag (Mixed)";
+    descriptionShort = "Caliber: 7.62x39mm 57-N-231/57-T-231P<br/>Type: FMJ/Tracer<br/>Rounds: 30<br/>Used in: Sa vz.58";
+    displayName = "30Rnd 7.62x39 57-N-231 Mag (Green Tracer Mixed)";
+    displayNameShort = "FMJ/Tracer";
 };
 class uns_sa58mag_NT: uns_ak47mag_NT {
-    displayName = "30Rnd 7.62x39mm Sa vz.58 Mag";
+    descriptionShort = "Caliber: 7.62x39mm 57-N-231<br/>Type: FMJ<br/>Rounds: 30<br/>Used in: Sa vz.58";
+    displayName = "30Rnd 7.62x39 57-N-231 Mag";
+    displayNameShort = "FMJ";
 };
 class uns_sa58mag_T: uns_ak47mag_T {
-    displayName = "30Rnd 7.62x39mm Sa vz.58 Mag (Tracer)";
+    descriptionShort = "Caliber: 7.62x39mm 57-T-231P<br/>Type: Tracer<br/>Rounds: 30<br/>Used in: Sa vz.58";
+    displayName = "30Rnd 7.62x39 57-T-231P Mag (Green Tracer)";
+    displayNameShort = "Tracer";
 };
 
 class uns_rpdmag: uns_rpkmag {
     ACE_isBelt = 1;
-    displayName = "100Rnd 7.62x39mm RPD Belt";
+    descriptionShort = "Caliber: 7.62x39mm 57-N-231/57-T-231P<br/>Type: FMJ/Tracer<br/>Rounds: 100<br/>Used in: RPD";
+    displayName = "100Rnd 7.62x39 57-N-231 Belt (Green Tracer Mixed)";
+    displayNameShort = "FMJ/Tracer";
     _MASS(AMMO762X39,100,RND100DRUMMG);
     modelSpecial = "";
     modelSpecialIsProxy = 0;
 };
 class uns_rpdsogmag: uns_rpdmag {
-    displayName = "125Rnd 7.62x39mm RPD Belt";
+    descriptionShort = "Caliber: 7.62x39mm 57-N-231/57-T-231P<br/>Type: FMJ/Tracer<br/>Rounds: 125<br/>Used in: RPD";
+    displayName = "125Rnd 7.62x39 57-N-231 Belt (Green Tracer Mixed)";
+    displayNameShort = "FMJ/Tracer";
     _MASS(AMMO762X39,125,RND100DRUMMG);
 };
 
 class uns_sksmag: uns_akmag_base {
-    displayName = "10Rnd 7.62x39mm SKS Clip (Mixed)";
+    descriptionShort = "Caliber: 7.62x39mm 57-N-231/57-T-231P<br/>Type: FMJ/Tracer<br/>Rounds: 10<br/>Used in: SKS";
+    displayName = "10Rnd 7.62x39 57-N-231 Clip (Green Tracer Mixed)";
+    displayNameShort = "FMJ/Tracer";
     _MASS(AMMO762X39,10,RNDCLIP);
     modelSpecial = "";
     modelSpecialIsProxy = 0;
 };
 class uns_sksmag_NT: uns_sksmag {
-    displayName = "10Rnd 7.62x39mm SKS Clip";
+    descriptionShort = "Caliber: 7.62x39mm 57-N-231<br/>Type: FMJ<br/>Rounds: 10<br/>Used in: SKS";
+    displayName = "10Rnd 7.62x39 57-N-231 Clip";
+    displayNameShort = "FMJ";
 };
 class uns_sksmag_T: uns_sksmag {
-    displayName = "10Rnd 7.62x39mm SKS Clip (Tracer)";
+    descriptionShort = "Caliber: 7.62x39mm 57-T-231P<br/>Type: Tracer<br/>Rounds: 10<br/>Used in: SKS";
+    displayName = "10Rnd 7.62x39 57-T-231P Clip (Green Tracer)";
+    displayNameShort = "Tracer";
 };
 
 class uns_STANAGmag_base: uns_Magazine {

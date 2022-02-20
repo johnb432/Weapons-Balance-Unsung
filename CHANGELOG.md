@@ -1,3 +1,28 @@
+# Changelog for Weapons balance 20.2.2022
+
+1.1.0.1
+- Renames some weapons to better fit.
+- Weapon changes:
+    - Unsung: 
+        - M1 Garand, M1 & M2 carbine, MAS-36 & MAS-49/56 (Rifle Grenade) variants:
+            - Removed modern 40mm grenades
+            - Added CBA magwell for 22mm rifle grenades
+        - Type 99 (Rifle Grenade):
+            - Removed modern 40mm grenades
+            - Added CBA magwell for 30mm rifle grenades
+        - M1A1 Bazooka:
+            - Added CBA magwell for 60mm Bazooka rounds
+            - Changed weight from 2.86kg to 5.78kg
+            
+- MagazineWells:
+    - CBA:
+        - 22mm rifle grenades:
+            - Added 7x Unsung 1Rnd
+        - 30mm rifle grenades
+            - Added 1x Unsung 1Rnd
+        - 60mm Bazooka
+            - Added 1x Unsung 1Rnd
+
 # Changelog for Weapons balance 26.12.2021
 
 1.1.0.0

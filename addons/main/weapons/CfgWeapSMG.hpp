@@ -212,7 +212,7 @@ class uns_sa61f: uns_pm63f {
     ACE_barrelLength = 115;
     ACE_barrelTwist = 250;
     baseWeapon = "uns_sa61f";
-    displayName = "Sa vz. 61 Skorpion (Folded)";
+    displayName = "Sa vz. 61 (Folded)";
     magazineWell[] = {"CBA_32ACP_Vz61"};
     rhs_fold = "uns_sa61";
     rhs_fold_anim = "RHS_GestureUnfoldAKMS";
@@ -223,7 +223,7 @@ class uns_sa61f: uns_pm63f {
 };
 class uns_sa61: uns_sa61f {
     baseWeapon = "uns_sa61";
-    displayName = "Sa vz. 61 Skorpion";
+    displayName = "Sa vz. 61";
     rhs_fold = "uns_sa61f";
     rhs_fold_anim = "RHS_GestureFoldAKMS";
     class WeaponSlotsInfo: WeaponSlotsInfo {};
