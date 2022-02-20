@@ -32,6 +32,7 @@ class uns_rpg7: uns_rpg2 {
    };
 };
 class uns_m1a1_bazooka: uns_rpg2 {
+    ace_reloadlaunchers_enabled = 1;
     magazineWell[] = {"CBA_Bazooka"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
        mass = 127.5;
