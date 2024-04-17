@@ -24,7 +24,7 @@ class uns_mas4956_muzzle: Uns_Rifle762 {
     ACE_barrelTwist = 270;
     magazineReloadTime = 0;
     magazineWell[] += {"CBA_75x54mmFrench_MAS49"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class uns_mas4956: uns_mas4956_muzzle {
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -69,7 +69,7 @@ class uns_svt: Uns_Rifle762 {
 class uns_M14_base: Uns_Rifle762 {
     magazineReloadTime = 0;
     magazineWell[] += {"CBA_762x51_M14","CBA_762x51_M14_L"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class uns_m14: uns_M14_base {
     displayName = "M14";

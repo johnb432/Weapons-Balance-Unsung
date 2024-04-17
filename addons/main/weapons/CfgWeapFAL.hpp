@@ -3,7 +3,7 @@ class uns_fal_base: Uns_Rifle762 {
     ACE_barrelTwist = 304.8;
     magazineReloadTime = 0;
     magazineWell[] += {"CBA_762x51_FAL","CBA_762x51_FAL_L"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class uns_l1a1_blk: uns_fal_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {

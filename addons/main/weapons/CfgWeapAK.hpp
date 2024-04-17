@@ -3,7 +3,7 @@ class uns_ak47_base: Uns_Rifle762 {
     ACE_barrelTwist = 240;
     magazineReloadTime = 0;
     magazineWell[] += {"AK_762x39","CBA_762x39_AK","CBA_762x39_RPK"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class uns_ak47: uns_ak47_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {

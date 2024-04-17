@@ -10,7 +10,7 @@ class Uns_Shotgun: Uns_Rifle {
         recoil = "recoil_single_primary_3outof10";
         recoilProne = "recoil_single_primary_prone_3outof10";
     };
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
     class EventHandlers: EventHandlers {
         class unsung {
             fired = QUOTE(_this call FUNC(cycleBolt));
@@ -46,7 +46,6 @@ class uns_m1897: Uns_Shotgun {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 80;
     };
-    class EventHandlers: EventHandlers {};
     class Single: Single {
         reloadTime = 0.5;
         soundEnd[] = {"sound",1};
@@ -57,8 +56,7 @@ class uns_m1897: Uns_Shotgun {
 };
 class uns_m1897riot: uns_m1897 {
     displayName = "M97 (Riot)";
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-    class EventHandlers: EventHandlers {};
+    class EventHandlers;
     class Single: Single {};
 };
 

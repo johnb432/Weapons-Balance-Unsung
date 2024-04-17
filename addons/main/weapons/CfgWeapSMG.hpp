@@ -1,5 +1,5 @@
 class Uns_SMG: Uns_Rifle {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class uns_PPS43: Uns_SMG {
     ACE_barrelLength = 243;
@@ -31,6 +31,7 @@ class uns_PPS52: uns_PPS43 {
 class uns_k50m: uns_PPS43 {
     baseWeapon = "uns_k50m";
     magazineWell[] = {"UNS_762x25_PPSh"};
+    rhs_fold = "";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 75;
     };
@@ -199,13 +200,12 @@ class uns_pm63f: Uns_SMG {
     rhs_fold = "uns_pm63";
     rhs_fold_anim = "RHS_GestureUnfoldAKMS";
     weaponInfoType = "rhs_rscOptics_uns_pm63f";
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class uns_pm63: uns_pm63f {
     baseWeapon = "uns_pm63";
     rhs_fold = "uns_pm63f";
     rhs_fold_anim = "RHS_GestureFoldAKMS";
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 
 class uns_sa61f: uns_pm63f {
@@ -226,7 +226,6 @@ class uns_sa61: uns_sa61f {
     displayName = "Sa vz. 61";
     rhs_fold = "uns_sa61f";
     rhs_fold_anim = "RHS_GestureFoldAKMS";
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 
 class uns_mp40: Uns_SMG {

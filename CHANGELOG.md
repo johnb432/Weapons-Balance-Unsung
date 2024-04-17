@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 17.4.2024
+
+1.1.1.0
+- Added latest HEMTT support.
+
 # Changelog for Weapons balance 20.2.2022
 
 1.1.0.1

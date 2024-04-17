@@ -190,7 +190,7 @@ class CfgAmmo {
         ACE_velocityBoundaries[] = {671,549};
     };
 
-    class uns_77x58: uns_riflebullet_base { //HLC_303Brit_B, https://en.wikipedia.org/wiki/7.7%C3%9758mm_Arisaka, 254mm twist
+    class uns_77x58: uns_77x56_British { //HLC_303Brit_B, https://en.wikipedia.org/wiki/7.7%C3%9758mm_Arisaka, 254mm twist
         ACE_ammoTempMuzzleVelocityShifts[] = {-26.55,-25.47,-22.85,-20.12,-16.98,-12.8,-7.64,-1.53,5.96,15.17,26.19};
         ACE_ballisticCoefficients[] = {0.48};
         ACE_barrelLengths[] = {657};
@@ -216,7 +216,7 @@ class CfgAmmo {
         ACE_velocityBoundaries[] = {};
     };
 
-    class uns_792x57: uns_riflebullet_base  { //HLC_792x57_Ball, https://en.wikipedia.org/wiki/7.92%C3%9757mm_Mauser, 240mm twist
+    class uns_792x57: uns_792x33_Ball  { //HLC_792x57_Ball, https://en.wikipedia.org/wiki/7.92%C3%9757mm_Mauser, 240mm twist
         ACE_ammoTempMuzzleVelocityShifts[] = {-26.55,-25.47,-22.85,-20.12,-16.98,-12.8,-7.64,-1.53,5.96,15.17,26.19};
         ACE_ballisticCoefficients[] = {0.315};
         ACE_barrelLengths[] = {508,599.948,660.4};

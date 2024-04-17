@@ -22,8 +22,11 @@ class CfgPatches {
             "uns_weap_w"
         };
         author = "johnb43";
-        authors[] = {"johnb43"};
+        authors[] = {
+            "johnb43"
+        };
         url = "https://github.com/johnb432/Weapons-Balance-Unsung";
+        skipWhenMissingDependencies = 1;
         VERSION_CONFIG;
     };
 };

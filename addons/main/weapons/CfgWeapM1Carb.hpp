@@ -22,7 +22,7 @@ class uns_m1carbine_pouch_gl: uns_m1carbine_gl {
 
 class uns_m2carbine: uns_m1carbine {
     displayName = "M2 Carbine";
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class uns_m2carbine_gl: uns_m2carbine {
     class WeaponSlotsInfo: WeaponSlotsInfo {

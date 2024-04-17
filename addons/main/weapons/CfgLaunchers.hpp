@@ -1,17 +1,10 @@
-class Launcher;
-class Launcher_Base_F: Launcher {
-    class WeaponSlotsInfo;
-};
-class launch_RPG32_F: Launcher_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
+class launch_RPG32_F;
 class uns_launcher_base_F: launch_RPG32_F {
     magazineWell[] = {};
     scope = 0;
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 class uns_launcher_base: uns_launcher_base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class uns_rpg2: uns_launcher_base {
     displayName = "RPG-2";

@@ -1,8 +1,8 @@
 class uns_Rifle_boltaction_base: Uns_Rifle762 {
     WB_reboltAction = "uns_ba_GestureReloadMosinBolt";
     WB_reboltSoundDistance = 20;
-    class Single: Single {};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class Single;
+    class WeaponSlotsInfo;
     class EventHandlers: EventHandlers {
         class unsung {
             fired = QUOTE(_this call FUNC(cycleBolt));
@@ -10,14 +10,14 @@ class uns_Rifle_boltaction_base: Uns_Rifle762 {
     };
 };
 class uns_Rifle_boltaction_clip_base: uns_Rifle_boltaction_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-    class Single: Single {};
+    class WeaponSlotsInfo;
+    class Single;
 };
 class uns_mosin_base: uns_Rifle_boltaction_clip_base {
     ACE_barrelLength = 730;
     ACE_barrelTwist = 240;
     magazineReloadTime = 0;
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
     class Single: Single {
         class StandardSound {
             begin1[] = {"\uns_weap_s\sks\sks_fire",2,0.99,500};
@@ -151,7 +151,6 @@ class uns_type99_gl: uns_type99 {
 };
 class uns_type99_sniper: uns_type99 {
     displayName = "Type 99 Arisaka (Sniper)";
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 
 class uns_mas36: uns_Rifle_boltaction_clip_base {
@@ -223,7 +222,6 @@ class uns_model70_base: uns_Rifle_boltaction_base {
 class uns_model70_iron: uns_model70_base {
     displayName = "Winchester Model 70";
     magazineWell[] += {"CBA_3006_Model70"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 class uns_M40_base: uns_model70_base {
     ACE_barrelLength = 610;

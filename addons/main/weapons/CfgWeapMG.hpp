@@ -1,8 +1,6 @@
-class Uns_LMG: Uns_Rifle {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
+class Uns_LMG;
 class Uns_HMG: Uns_LMG {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class uns_rpk_base: Uns_HMG {
     ACE_barrelLength = 590;
@@ -16,7 +14,6 @@ class uns_rpk_base: Uns_HMG {
 };
 class uns_RPK_40: uns_rpk_base {
     displayName = "RPK";
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 class uns_RPK_drum: uns_rpk_base {
     displayName = "RPK (Drum)";
@@ -35,16 +32,15 @@ class uns_rpd_base: Uns_HMG {
         mass = 163.1;
     };
 };
-class uns_rpd: uns_rpd_base {
-    displayName = "RPD";
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
 class uns_rpdsog: uns_rpd_base {
     ACE_barrelLength = 420;
     displayName = "RPD (Sawn-off)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 146.1;
     };
+};
+class uns_rpd: uns_rpd_base {
+    displayName = "RPD";
 };
 class uns_RPDsupport: uns_rpd {
     displayName = "RPD (Support)";
@@ -113,7 +109,7 @@ class uns_MG42support: uns_MG42 {
 class uns_m60_base: Uns_HMG {
     magazineReloadTime = 0;
     magazineWell[] += {"CBA_762x51_LINKS","M240_762x51"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class uns_m60: uns_m60_base {
     displayName = "M60";
@@ -123,7 +119,6 @@ class uns_m60: uns_m60_base {
 };
 class uns_m60support: uns_m60 {
     displayName = "M60 (Support)";
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 class uns_m60grip: uns_m60_base {
     ACE_barrelLength = 431.8;
@@ -156,7 +151,7 @@ class uns_bar_base: Uns_LMG {
     ACE_Overheating_allowSwapBarrel = 0;
     magazineReloadTime = 0;
     magazineWell[] += {"CBA_3006_BAR"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class uns_bar: uns_bar_base {
     displayName = "M1918A2 BAR (Bipod)";
